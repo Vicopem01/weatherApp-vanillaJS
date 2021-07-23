@@ -31,7 +31,7 @@ button.addEventListener("click", (evt) => {
   const section = document.querySelector(".section");
   evt.preventDefault();
   msg.textContent = "";
-    form.reset();
+  input.value ="";
   section.style.opacity = "0.2";
   loader.style.display = "inline-block";
   if (navigator.onLine !== true) {
