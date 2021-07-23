@@ -90,7 +90,6 @@ button.addEventListener("click", (evt) => {
         }
       })
       .catch();
-  input.focus();
 
   }
 });
