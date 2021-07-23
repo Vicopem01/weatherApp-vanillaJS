@@ -1,0 +1,286 @@
+main{
+    color: #091f43;
+    font-family: 'Roboto', sans-serif;
+}
+h1, p{
+    text-align: center;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+p{
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    margin: 5px 0;
+}
+
+form{
+    width: 60%;
+    margin: 30px auto;
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+    gap: 50px;
+}
+input{
+    width: 50%;
+    color: #091f43;
+    padding: 5px 20px;
+    border: none;
+    border-bottom: 2px solid #091f43;
+    outline: none;
+    font-size: 28px;
+}
+button{
+    background-color: #ff8c00;
+    width: 160px;
+    border: none;
+    border-radius: 40px;
+    padding: 9px 30px;
+    color: #fff;
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition: 0.56s ease-in-out;
+}
+button:hover{
+    color: #ff8c00;
+    background-color: #091f43;
+}
+.msg{
+    margin: 20px 0;
+    display: block;
+    text-align: center;
+}
+.section{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 400px);
+    row-gap: 30px;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 360px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    border-bottom: 2px dotted #091f43;
+}
+.div{
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+}
+h2{
+    font-weight: 400;
+    font-size: 1.7rem;
+    margin: 0px;
+}
+h2 sup{
+    font-weight: 300;
+    color: #ff8c00;
+}
+figure{
+    margin: 0px;
+}
+figure img{
+    width: 80px;
+    height: 80px;
+}
+figcaption{
+    font-size: 14px;
+}
+.temp{
+    font-size: 4.5rem;
+    font-weight: 400;
+    margin: 10px 0;
+}
+.date{
+    font-size: 12px;
+    font-weight: 400;
+    display: block;
+    text-align: right
+}
+.degree{
+    font-size: 45px;
+}
+@keyframes ldio-v07cmcep18n {
+    0% {
+      opacity: 1;
+      backface-visibility: hidden;
+      transform: translateZ(0) scale(1.12,1.12);
+    } 100% {
+      opacity: 0;
+      backface-visibility: hidden;
+      transform: translateZ(0) scale(1,1);
+    }
+  }
+  .ldio-v07cmcep18n div > div {
+    position: absolute;
+    width: 21.099999999999998px;
+    height: 21.099999999999998px;
+    border-radius: 50%;
+    background: #ff8c00;
+    animation: ldio-v07cmcep18n 1s linear infinite;
+  }.ldio-v07cmcep18n div:nth-child(1) > div {
+    left: 160.5px;
+    top: 94.5px;
+    animation-delay: -0.875s;
+  }
+  .ldio-v07cmcep18n > div:nth-child(1) {
+    transform: rotate(0deg);
+    transform-origin: 171.05px 105.05px;
+  }.ldio-v07cmcep18n div:nth-child(2) > div {
+    left: 141.5px;
+    top: 141.5px;
+    animation-delay: -0.75s;
+  }
+  .ldio-v07cmcep18n > div:nth-child(2) {
+    transform: rotate(45deg);
+    transform-origin: 152.05px 152.05px;
+  }.ldio-v07cmcep18n div:nth-child(3) > div {
+    left: 94.5px;
+    top: 160.5px;
+    animation-delay: -0.625s;
+  }
+  .ldio-v07cmcep18n > div:nth-child(3) {
+    transform: rotate(90deg);
+    transform-origin: 105.05px 171.05px;
+  }.ldio-v07cmcep18n div:nth-child(4) > div {
+    left: 48.5px;
+    top: 141.5px;
+    animation-delay: -0.5s;
+  }
+  .ldio-v07cmcep18n > div:nth-child(4) {
+    transform: rotate(135deg);
+    transform-origin: 59.05px 152.05px;
+  }.ldio-v07cmcep18n div:nth-child(5) > div {
+    left: 29.5px;
+    top: 94.5px;
+    animation-delay: -0.375s;
+  }
+  .ldio-v07cmcep18n > div:nth-child(5) {
+    transform: rotate(180deg);
+    transform-origin: 40.05px 105.05px;
+  }.ldio-v07cmcep18n div:nth-child(6) > div {
+    left: 48.5px;
+    top: 48.5px;
+    animation-delay: -0.25s;
+  }
+  .ldio-v07cmcep18n > div:nth-child(6) {
+    transform: rotate(225deg);
+    transform-origin: 59.05px 59.05px;
+  }.ldio-v07cmcep18n div:nth-child(7) > div {
+    left: 94.5px;
+    top: 29.5px;
+    animation-delay: -0.125s;
+  }
+  .ldio-v07cmcep18n > div:nth-child(7) {
+    transform: rotate(270deg);
+    transform-origin: 105.05px 40.05px;
+  }.ldio-v07cmcep18n div:nth-child(8) > div {
+    left: 141.5px;
+    top: 48.5px;
+    animation-delay: 0s;
+  }
+  .ldio-v07cmcep18n > div:nth-child(8) {
+    transform: rotate(315deg);
+    transform-origin: 152.05px 59.05px;
+  }
+  .loadingio-spinner-spin-qf7pvy38fs {
+    width: 211px;
+    height: 211px;
+    display: none;
+    overflow: hidden;
+    background: transparent;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: 85px;
+    transform: translate(-50%, -50%);
+  }
+  .ldio-v07cmcep18n {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform: translateZ(0) scale(1);
+    backface-visibility: hidden;
+    transform-origin: 0 0; /* see note above */
+  }
+  .ldio-v07cmcep18n div { box-sizing: content-box; }
+@media screen and (max-width:905px){
+    h1{
+      font-size: 2.5rem;
+    }
+    p{
+      font-size: 1.2rem;
+    }
+    form{
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+    }
+    input{
+        font-size: 1.6rem;
+        display: block;
+        width: 100%;
+      }
+      button{
+        font-size: 1.2rem;
+        display: block;
+    }
+    .section{
+      grid-template-columns: repeat(auto-fill, 300px);
+    }
+    .container{
+      width: 295px;
+      gap: 20px;
+    }
+    .temp{
+      font-size: 3rem;
+    }
+    h2{
+      font-size: 1.4rem;
+    }
+}
+@media screen and (max-width:320px){
+h1{
+  font-size: 1.8rem;
+}
+p{
+  font-size: 1rem;
+}
+input{
+  font-size: 1.2rem;
+}
+button{
+  width: 100px;
+  padding: 8px 10px;
+  font-size: 14px;
+}
+.container{
+  width: 60%;
+  margin: auto;
+}
+figure img{
+  width: 50px;
+  height: 50px;
+}
+figcaption{
+  font-size: 12px;
+}
+.temp{
+  font-size: 1.8rem;
+  margin-bottom: 55%;
+}
+.degree{
+  font-size: 16px;
+}
+.date{
+  font-size: 10px;
+}
+}
