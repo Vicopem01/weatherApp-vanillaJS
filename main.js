@@ -73,7 +73,7 @@ button.addEventListener("click", (evt) => {
             console.log(data);
             newChild.classList.add("container");
             newChild.innerHTML = markup;
-            section.appendChild(newChild);
+            section.insertAdjacentElement("afterbegin", newChild );
             loader.style.display = "none";
             section.style.opacity = "1";
           } else {
