@@ -31,7 +31,7 @@ button.addEventListener("click", (evt) => {
   const section = document.querySelector(".section");
   evt.preventDefault();
   msg.textContent = "";
-  input.value ="";
+  input.value = "";
   section.style.opacity = "0.2";
   loader.style.display = "inline-block";
   if (navigator.onLine !== true) {
@@ -73,7 +73,7 @@ button.addEventListener("click", (evt) => {
             console.log(data);
             newChild.classList.add("container");
             newChild.innerHTML = markup;
-            section.insertAdjacentElement("afterbegin", newChild );
+            section.insertAdjacentElement("afterbegin", newChild);
             loader.style.display = "none";
             section.style.opacity = "1";
           } else {
@@ -90,6 +90,5 @@ button.addEventListener("click", (evt) => {
         }
       })
       .catch();
-
   }
 });
